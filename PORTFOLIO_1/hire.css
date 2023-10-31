@@ -1,0 +1,88 @@
+/* styles.css */
+body {
+    font-family: Arial, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;;
+    background-color:#e08484;
+  }
+  
+  header {
+    background-color: #e08484;
+    color: brown;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  nav {
+    background-color: #e7abab;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  h3 {
+    color: #213442;
+    text-decoration:underline;
+    
+  }
+  
+  .hire-me {
+    text-align: center;
+    font-family: Arial, 'Times New Roman', Times, serif;
+    background-color: rgb(134, 76, 88);
+    padding: 20px;
+    border-radius: 500px;
+  }
+  
+  .bio {
+    font-size: 18px;
+  }
+  
+  .contact-info {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-info li {
+    margin-bottom: 10px;
+  }
+  
+  .portfolio-list,
+  .skills-list,
+  .achievements-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .portfolio-list li,
+  .skills-list li,
+  .achievements-list li {
+    margin-bottom: 10px;
+  }
+  
+  blockquote {
+    font-style: italic;
+    margin: 10px 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(39, 39, 199);
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  footer {
+    text-align: center;
+    background-color: #f17777;
+    color: #fff;
+    padding: 10px;
+}

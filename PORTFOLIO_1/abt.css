@@ -1,0 +1,71 @@
+.body{
+    background-color: rgb(253, 167, 167);
+    position: relative;
+    height: 140vh;
+    width: 100%;
+}
+
+
+.circleimg{
+    border-radius: 100%;
+    display: block;
+    margin:20px auto;
+    padding-top: 7px;
+    
+    
+}   
+.circleimg:hover{
+    opacity: 33%;
+   
+}
+.sss{
+    text-align: center;
+    font-size: 20px;
+}
+.ss{
+    font-size: 30px;
+    text-align: center;
+    color: brown;
+}
+.aboutbg h1{
+    margin: 0 540px;
+}
+
+.aboutbg h1:hover{
+    color: red;
+}
+
+.sai{
+    padding: 10px;
+    color: rgb(66, 52, 52);
+    font-style: italic;
+    font-size: 20px;
+}
+span{
+    color:rgb(172, 30, 30) ;
+}
+
+@media only screen and (max-width: 800px){
+    .body{
+        background-color: rgb(253, 167, 167);
+        position: relative;
+        height: 230vh;
+        width: 100%;
+        padding: 10px;
+    }
+    .sss{
+        text-align: center;
+        font-size: 20px;
+    }
+    .aboutbg h1{
+        margin: 0 110px;
+        font-size: 25px;
+    }
+    .aboutbg h1:hover{
+        color: red;
+    }
+    .sai{
+        padding: 0;
+    }
+}
+
